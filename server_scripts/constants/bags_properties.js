@@ -1,3 +1,4 @@
+// constants for server_scripts bags, i think it can be changed to global variable
 const pouch_name = ['Magic bag', 'Early game bag', 'Mid game bag', 'Late game bag', 'End game bag', 'Food bag']    // Bag name
 const pouch_color = ['purple', 'green', 'yellow', 'orange', 'red', 'light_blue']                                   // Bag color
 const rarity = ['common', 'rare', 'epic']                                                                          // All rarity for bags
