@@ -2,8 +2,8 @@
     "author": "Kitsuny",
     "description": "Random loot bags",
     
-    "versions": [1],
+    "versions": [9],
     "modloaders": ["fabric", "forge"],
-    "dependencies": ["mod:LootJS"],
+    "dependencies": ["mod:lootjs"],
     "incompatibilities": []
 }
