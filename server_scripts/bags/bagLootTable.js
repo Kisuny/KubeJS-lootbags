@@ -49,10 +49,10 @@ let food = {
 }
 
 function add_bags(event, bag_name, object) {
-    for (let i of rarity) {
-        event.addLootTableModifier(`loot:${bag_name}/${bag_name}_bag_${i}`).addWeightedLoot(   
-            object[i].item_quantity,
-            object[i].loot_pool,
+    for (let rarity of global.rarity) {
+        event.addLootTableModifier(`loot:${bag_name}/${bag_name}_bag_${rarity}`).addWeightedLoot(   
+            object[rarity].item_quantity,
+            object[rarity].loot_pool,
         )
     }
 }
